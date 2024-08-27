@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5B613902C7DB01C004FA972 /* swift_physio_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6138F2C7DB01C004FA972 /* swift_physio_appApp.swift */; };
+		D5B613922C7DB01C004FA972 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B613912C7DB01C004FA972 /* ContentView.swift */; };
+		D5B613942C7DB01E004FA972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B613932C7DB01E004FA972 /* Assets.xcassets */; };
+		D5B613982C7DB01E004FA972 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B613972C7DB01E004FA972 /* Preview Assets.xcassets */; };
+		D5B613A22C7DB01F004FA972 /* swift_physio_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B613A12C7DB01F004FA972 /* swift_physio_appTests.swift */; };
+		D5B613AC2C7DB01F004FA972 /* swift_physio_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B613AB2C7DB01F004FA972 /* swift_physio_appUITests.swift */; };
+		D5B613AE2C7DB01F004FA972 /* swift_physio_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B613AD2C7DB01F004FA972 /* swift_physio_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5B6139E2C7DB01F004FA972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B613842C7DB01C004FA972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B6138B2C7DB01C004FA972;
+			remoteInfo = swift_physio_app;
+		};
+		D5B613A82C7DB01F004FA972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B613842C7DB01C004FA972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B6138B2C7DB01C004FA972;
+			remoteInfo = swift_physio_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5B6138C2C7DB01C004FA972 /* swift_physio_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_physio_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B6138F2C7DB01C004FA972 /* swift_physio_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_physio_appApp.swift; sourceTree = "<group>"; };
+		D5B613912C7DB01C004FA972 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5B613932C7DB01E004FA972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5B613952C7DB01E004FA972 /* swift_physio_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swift_physio_app.entitlements; sourceTree = "<group>"; };
+		D5B613972C7DB01E004FA972 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5B6139D2C7DB01F004FA972 /* swift_physio_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_physio_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B613A12C7DB01F004FA972 /* swift_physio_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_physio_appTests.swift; sourceTree = "<group>"; };
+		D5B613A72C7DB01F004FA972 /* swift_physio_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_physio_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B613AB2C7DB01F004FA972 /* swift_physio_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_physio_appUITests.swift; sourceTree = "<group>"; };
+		D5B613AD2C7DB01F004FA972 /* swift_physio_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_physio_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B613892C7DB01C004FA972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B6139A2C7DB01F004FA972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B613A42C7DB01F004FA972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5B613832C7DB01C004FA972 = {
+			isa = PBXGroup;
+			children = (
+				D5B6138E2C7DB01C004FA972 /* swift_physio_app */,
+				D5B613A02C7DB01F004FA972 /* swift_physio_appTests */,
+				D5B613AA2C7DB01F004FA972 /* swift_physio_appUITests */,
+				D5B6138D2C7DB01C004FA972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B6138D2C7DB01C004FA972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B6138C2C7DB01C004FA972 /* swift_physio_app.app */,
+				D5B6139D2C7DB01F004FA972 /* swift_physio_appTests.xctest */,
+				D5B613A72C7DB01F004FA972 /* swift_physio_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B6138E2C7DB01C004FA972 /* swift_physio_app */ = {
+			isa = PBXGroup;
+			children = (
+				D5B6138F2C7DB01C004FA972 /* swift_physio_appApp.swift */,
+				D5B613912C7DB01C004FA972 /* ContentView.swift */,
+				D5B613932C7DB01E004FA972 /* Assets.xcassets */,
+				D5B613952C7DB01E004FA972 /* swift_physio_app.entitlements */,
+				D5B613962C7DB01E004FA972 /* Preview Content */,
+			);
+			path = swift_physio_app;
+			sourceTree = "<group>";
+		};
+		D5B613962C7DB01E004FA972 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5B613972C7DB01E004FA972 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5B613A02C7DB01F004FA972 /* swift_physio_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B613A12C7DB01F004FA972 /* swift_physio_appTests.swift */,
+			);
+			path = swift_physio_appTests;
+			sourceTree = "<group>";
+		};
+		D5B613AA2C7DB01F004FA972 /* swift_physio_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B613AB2C7DB01F004FA972 /* swift_physio_appUITests.swift */,
+				D5B613AD2C7DB01F004FA972 /* swift_physio_appUITestsLaunchTests.swift */,
+			);
+			path = swift_physio_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5B6138B2C7DB01C004FA972 /* swift_physio_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B613B12C7DB01F004FA972 /* Build configuration list for PBXNativeTarget "swift_physio_app" */;
+			buildPhases = (
+				D5B613882C7DB01C004FA972 /* Sources */,
+				D5B613892C7DB01C004FA972 /* Frameworks */,
+				D5B6138A2C7DB01C004FA972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift_physio_app;
+			productName = swift_physio_app;
+			productReference = D5B6138C2C7DB01C004FA972 /* swift_physio_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5B6139C2C7DB01F004FA972 /* swift_physio_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B613B42C7DB01F004FA972 /* Build configuration list for PBXNativeTarget "swift_physio_appTests" */;
+			buildPhases = (
+				D5B613992C7DB01F004FA972 /* Sources */,
+				D5B6139A2C7DB01F004FA972 /* Frameworks */,
+				D5B6139B2C7DB01F004FA972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B6139F2C7DB01F004FA972 /* PBXTargetDependency */,
+			);
+			name = swift_physio_appTests;
+			productName = swift_physio_appTests;
+			productReference = D5B6139D2C7DB01F004FA972 /* swift_physio_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5B613A62C7DB01F004FA972 /* swift_physio_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B613B72C7DB01F004FA972 /* Build configuration list for PBXNativeTarget "swift_physio_appUITests" */;
+			buildPhases = (
+				D5B613A32C7DB01F004FA972 /* Sources */,
+				D5B613A42C7DB01F004FA972 /* Frameworks */,
+				D5B613A52C7DB01F004FA972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B613A92C7DB01F004FA972 /* PBXTargetDependency */,
+			);
+			name = swift_physio_appUITests;
+			productName = swift_physio_appUITests;
+			productReference = D5B613A72C7DB01F004FA972 /* swift_physio_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B613842C7DB01C004FA972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D5B6138B2C7DB01C004FA972 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D5B6139C2C7DB01F004FA972 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5B6138B2C7DB01C004FA972;
+					};
+					D5B613A62C7DB01F004FA972 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5B6138B2C7DB01C004FA972;
+					};
+				};
+			};
+			buildConfigurationList = D5B613872C7DB01C004FA972 /* Build configuration list for PBXProject "swift_physio_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5B613832C7DB01C004FA972;
+			productRefGroup = D5B6138D2C7DB01C004FA972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B6138B2C7DB01C004FA972 /* swift_physio_app */,
+				D5B6139C2C7DB01F004FA972 /* swift_physio_appTests */,
+				D5B613A62C7DB01F004FA972 /* swift_physio_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5B6138A2C7DB01C004FA972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B613982C7DB01E004FA972 /* Preview Assets.xcassets in Resources */,
+				D5B613942C7DB01E004FA972 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B6139B2C7DB01F004FA972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B613A52C7DB01F004FA972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5B613882C7DB01C004FA972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B613922C7DB01C004FA972 /* ContentView.swift in Sources */,
+				D5B613902C7DB01C004FA972 /* swift_physio_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B613992C7DB01F004FA972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B613A22C7DB01F004FA972 /* swift_physio_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B613A32C7DB01F004FA972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B613AE2C7DB01F004FA972 /* swift_physio_appUITestsLaunchTests.swift in Sources */,
+				D5B613AC2C7DB01F004FA972 /* swift_physio_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5B6139F2C7DB01F004FA972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B6138B2C7DB01C004FA972 /* swift_physio_app */;
+			targetProxy = D5B6139E2C7DB01F004FA972 /* PBXContainerItemProxy */;
+		};
+		D5B613A92C7DB01F004FA972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B6138B2C7DB01C004FA972 /* swift_physio_app */;
+			targetProxy = D5B613A82C7DB01F004FA972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5B613AF2C7DB01F004FA972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5B613B02C7DB01F004FA972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D5B613B22C7DB01F004FA972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swift_physio_app/swift_physio_app.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift_physio_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.physioactivejknu2001.swift-physio-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B613B32C7DB01F004FA972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swift_physio_app/swift_physio_app.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift_physio_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.physioactivejknu2001.swift-physio-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5B613B52C7DB01F004FA972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.physioactivejknu2001.swift-physio-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_physio_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift_physio_app";
+			};
+			name = Debug;
+		};
+		D5B613B62C7DB01F004FA972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.physioactivejknu2001.swift-physio-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_physio_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift_physio_app";
+			};
+			name = Release;
+		};
+		D5B613B82C7DB01F004FA972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.physioactivejknu2001.swift-physio-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swift_physio_app;
+			};
+			name = Debug;
+		};
+		D5B613B92C7DB01F004FA972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.physioactivejknu2001.swift-physio-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swift_physio_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5B613872C7DB01C004FA972 /* Build configuration list for PBXProject "swift_physio_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B613AF2C7DB01F004FA972 /* Debug */,
+				D5B613B02C7DB01F004FA972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B613B12C7DB01F004FA972 /* Build configuration list for PBXNativeTarget "swift_physio_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B613B22C7DB01F004FA972 /* Debug */,
+				D5B613B32C7DB01F004FA972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B613B42C7DB01F004FA972 /* Build configuration list for PBXNativeTarget "swift_physio_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B613B52C7DB01F004FA972 /* Debug */,
+				D5B613B62C7DB01F004FA972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B613B72C7DB01F004FA972 /* Build configuration list for PBXNativeTarget "swift_physio_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B613B82C7DB01F004FA972 /* Debug */,
+				D5B613B92C7DB01F004FA972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5B613842C7DB01C004FA972 /* Project object */;
+}
